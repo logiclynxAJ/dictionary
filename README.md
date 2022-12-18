@@ -15,6 +15,7 @@ This project is a demonstration of the use of [Free Dictionary API](https://dict
 - Cross platform
 - Pronounciation audios
 - Supports multiple Parts of Speech
+- Caches audio files to save data
 
 ## Run Locally
 
@@ -50,6 +51,7 @@ Run project
 
 ## Roadmap
 
+- Dark mode support
 - Add Etymology section
 
 ## Tech Stack
