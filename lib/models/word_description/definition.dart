@@ -8,8 +8,14 @@ class Definition extends Equatable {
   final String? definition;
   final List<dynamic>? synonyms;
   final List<dynamic>? antonyms;
+  final String? example;
 
-  const Definition({this.definition, this.synonyms, this.antonyms});
+  const Definition({
+    this.definition,
+    this.synonyms,
+    this.antonyms,
+    this.example,
+  });
 
   factory Definition.fromJson(Map<String, dynamic> json) {
     return _$DefinitionFromJson(json);
@@ -21,11 +27,13 @@ class Definition extends Equatable {
     String? definition,
     List<dynamic>? synonyms,
     List<dynamic>? antonyms,
+    String? example,
   }) {
     return Definition(
       definition: definition ?? this.definition,
       synonyms: synonyms ?? this.synonyms,
       antonyms: antonyms ?? this.antonyms,
+      example: example ?? this.example,
     );
   }
 
@@ -33,5 +41,5 @@ class Definition extends Equatable {
   bool get stringify => true;
 
   @override
-  List<Object?> get props => [definition, synonyms, antonyms];
+  List<Object?> get props => [definition, synonyms, antonyms, example];
 }

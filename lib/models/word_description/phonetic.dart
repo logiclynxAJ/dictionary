@@ -6,7 +6,7 @@ import 'license.dart';
 part 'phonetic.g.dart';
 
 @JsonSerializable()
-class Phonetic extends Equatable {
+class Phonetic extends Equatable with Comparable {
   final String? audio;
   final String? sourceUrl;
   final License? license;
@@ -39,4 +39,14 @@ class Phonetic extends Equatable {
 
   @override
   List<Object?> get props => [audio, sourceUrl, license, text];
+
+  @override
+  int compareTo(other) {
+    final isAudioValid = audio?.isNotEmpty ?? false;
+    final isOtherAudioValid = other.audio?.isNotEmpty ?? false;
+
+    if (isAudioValid && !isOtherAudioValid) return 1;
+
+    return -1;
+  }
 }

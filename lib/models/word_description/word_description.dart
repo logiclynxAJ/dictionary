@@ -59,3 +59,7 @@ class WordDescription extends Equatable {
     ];
   }
 }
+
+typedef WordDescriptions = List<WordDescription>;
+
+typedef WordDecriptionMap = Map<String, WordDescriptions>;
