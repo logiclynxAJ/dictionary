@@ -36,6 +36,12 @@ Install dependencies
   flutter pub get
 ```
 
+Generate json serializers
+
+```base
+  flutter pub run build_runner build --delete-conflicting-outputs
+```
+
 Run project
 
 ```bash

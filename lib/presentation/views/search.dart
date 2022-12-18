@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:dictionary/business/event.dart';
 import 'package:dictionary/business/state.dart';
 import 'package:dictionary/models/word_description/meaning.dart';
