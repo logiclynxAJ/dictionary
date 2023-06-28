@@ -1,6 +1,6 @@
 # Minimal Dictionary
 
-This project is a demonstration of the use of [Free Dictionary API](https://dictionaryapi.dev/) with flutter. I've followed basic BloC principal with the hlep of [flutter_bloc](https://pub.dev/packages/flutter_bloc) and [RxDart](https://pub.dev/packages/rxdart).
+This project serves as a practical showcase of integrating the [Free Dictionary API](https://dictionaryapi.dev/) with the Flutter framework. The implementation follows the fundamental principles of the Business Logic Component (BloC) pattern, leveraging the powerful combination of [flutter_bloc](https://pub.dev/packages/flutter_bloc) and [RxDart](https://pub.dev/packages/rxdart) libraries.
 
 ## Screenshots
 
