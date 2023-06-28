@@ -60,7 +60,17 @@ Run project
 
 ## 🚀 About Me
 
-I'm a frontend developer specialising in Flutter and React Js. Currently in a WFH role at a fintech company. If you have any interesting project idea lets chat, I would love to collaborate.
+Hello there! 👋
+
+I'm a 23-year-old frontend software developer based in Mumbai, India. Currently, I work at Tifin, a fintech startup based in the United States, where I contribute to building innovative and user-friendly software solutions.
+
+Outside of work, I have a passion for exploring the magical world of Harry Potter and consider myself a devoted Potterhead. In my free time, you'll often find me engrossed in watching anime series or diving into captivating sci-fi movies and TV shows. I thoroughly enjoy indulging in these forms of entertainment, which not only entertain but also inspire me creatively.
+
+Through my GitHub projects, I aim to showcase my skills and expertise as a frontend developer. I strive to create well-designed, efficient, and user-centric applications that make a positive impact. I believe in continuous learning and constantly honing my craft to stay up to date with the latest trends and technologies.
+
+Thank you for visiting my GitHub profile. Feel free to explore my projects and don't hesitate to reach out if you have any questions or collaborations in mind. Let's connect and build amazing things together!
+
+Happy coding! ✨
 
 ## 🛠 Skills
 
