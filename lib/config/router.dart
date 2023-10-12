@@ -14,7 +14,7 @@ final routerConfig = GoRouter(
     GoRoute(
       path: '/search/:query',
       builder: (context, state) =>
-          SearchResultPage(query: state.params['query']!),
+          SearchResultPage(query: state.pathParameters['query']!),
     ),
   ],
 );

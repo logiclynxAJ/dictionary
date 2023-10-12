@@ -1,4 +1,3 @@
-import 'package:dictionary/models/word_description/definition.dart';
 import 'package:dictionary/models/word_description/meaning.dart';
 import 'package:dictionary/utils/extensions/iterable.dart';
 import 'package:flutter/material.dart';

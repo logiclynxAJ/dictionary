@@ -6,7 +6,7 @@ import 'license.dart';
 part 'phonetic.g.dart';
 
 @JsonSerializable()
-class Phonetic extends Equatable with Comparable {
+class Phonetic extends Equatable implements Comparable<Phonetic> {
   final String? audio;
   final String? sourceUrl;
   final License? license;
